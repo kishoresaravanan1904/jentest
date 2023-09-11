@@ -1,0 +1,51 @@
+﻿<repository
+id="1b421071-480a-4444-82f3-68a7b2e1b180"
+name="jentestRepository">
+	<codegen
+	classname="jentestRepository"
+	namespace="jentest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="78840eb5-a374-4e92-ad6c-6b0d788c14db"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="62327d9e-ce8c-4eaf-b705-326c9f6e1175"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@automationid='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="afebdb5e-c320-4734-8c56-cf309f5a69c5"
+			name="EnterYourName"
+			refimgid="4e926733-e7d4-45de-b163-8dcff5816114"
+			refpath="/form[@automationid='RxMainFrame' and @title>'Ranorex Studio Demo Appli' and @processname='rxdemo' and @controlname='RxMainFrame' and @controltypename='RxMainFrame' and @controlname='RxMainFrame' and @instance='1']/tabpagelist/tabpage[@title='Introduction' and @automationid='RxTabIntroduction']/text[@automationid='txtUserName']/text[@accessiblename='Enter your name']"
+			robustPath="/form[@automationid='RxMainFrame']//text[@accessiblename='Enter your name']"
+			searchtimeout="30000ms">
+				/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+			</item>
+			<basepath>
+				/form[@automationid='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
